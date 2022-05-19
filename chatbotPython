@@ -1,0 +1,54 @@
+#question:answer
+import time
+now = time.ctime()
+print("Stel hier je vraag!")
+qna = {
+    "hi":"hey",
+    "hey": "hi",
+    "Hoe gaat het": "Alles gaat goed met mij",
+    "Wat is jouw naam": "My name is Chatbot",
+    "Wat is de tijd": now,
+    "Wat is AI": "Ai heeft betrekking op systemen of machines die onze eigen intelligentie nabootsen om taken uit te voeren en die "
+                  "zichzelf tijdens dat proces kunnen verbeteren op basis van de vergaarde informatie. Bijvoorbeeld: chatbots, gepersonaliseerde suggesties"
+                  " van Netflix of Spotify.",
+    "Wat is Artificial intelligence": "Ai heeft betrekking op systemen of machines die onze eigen intelligentie nabootsen om taken uit te voeren en die "
+    "zichzelf tijdens dat proces kunnen verbeteren op basis van de vergaarde informatie. Bijvoorbeeld: chatbots, gepersonaliseerde suggesties"
+     " van Netflix of Spotify.",
+    "Wat zijn voorbeelden van AI": "zelfrijdende auto's, automatische vertalingen, digitale persoonlijke assisitentie, cyberveiligheid, in verschillende sectoren"
+                                    "heeft het voordelen.",
+    "Wanneer is AI uitgevonden" : "1956 wordt beschouwd als het geboortejaar van AI, toen de term kunstmatige intelligentie werd toegewezen aan een nieuw type veld. "
+                                 "Dit gebeurde op de Dartmouth-conferentie georganiseerd door John McCarthy.",
+    "Wat zijn de voordelen van AI":
+        "- Verbetert de bedrijfsprestaties en productiviteit door processen of taken te automatiseren die voorheen menselijke inzet vereisten" 
+	"- Data te interpreteren op een schaal die geen mens ooit zou aankunnen "
+	"- Betere volksgezondheid, veiligere auto’s en andere vormen van transport, goedkopere producten en diensten op maat die langer meegaan."
+	" -De werkplek ook veiliger maken dankzij het gebruik van robots om gevaarlijke werkactiviteiten over te nemen. ",
+    "Wat zijn de nadelen van AI": "-	Aansprakelijkheid: Wie is schuldig wanneer er schade is door AI?"
+                                     "AI-impact op banen: kan leiden tot verlies van vele banen. Ondanks het feit dat AI ook banen kan creëren en verbeteren , "
+                                     "zijn trainingen en opleidingen essentieel om langdurig werkloosheid te verkoken en om te zorgen voor opgeleide arbeidskrachten.",
+
+    "Geef eens nieuws over AI" : "Hier onder kan je enkele artikelen vinden: "
+                                 "https://www.rtlnieuws.nl/tech/artikel/5300715/ai-kunstmatige-intelligentie-hartstilstand-gezondheid-geneeskunde-wetenschap , "
+                                 "https://medcitynews.com/2022/04/increasing-access-and-equity-in-healthcare-through-ai/ , "
+                                 "https://www.governing.com/now/how-artificial-intelligence-can-help-fight-fires-in-the-west",
+    "Kan AI grote wereldproblemen oplossen": "Met kunstmatige intelligentie kan er in verschillende sectoren problemen op gelost geraken.Zelfrijdende auto's zullen dit aantal verkeersslachtoffers aanzienlijk doen dalen. "
+                                                                                                            "In het onderwijs kan er bijvoorbeeld gebruik maken van virutele docenten. En er is nog veel meer.",
+    "Wat zijn de risico's van AI": "Er kleven ook risico's aan het gebruik. De arbeidsmarkt is een van de risico's. Intelligente machines nemen steeds meer banen over ondanks dat er ook veel worden gecreëerd. Ook privacy kan een risico volgen. De autonome wapens, de onbetrouwbaarheid neemt toe,deepfake,...",
+
+    "De toekomst van AI": " In de toekomst van AI kan er veel gebeuren. De AI kan gebruikt worden in diagnose en behandeling van ziekten, maar ook in de modeontwerp en de interactie met de klanten. Ook in de cybercrime, fraudedectie, het indentificeren van criminele activiteiten. AI kan gebruikt worden in gepersonaliseerde advertenties,... ",
+
+    "Films over AI" : "Een populair onderwerp voor films is dan ook robots en  kunstmatige intelligentie",
+
+    "Machine Learning" : "Machine Learning is een onderdeel van AI dat zich toespitst op technieken waarmee computers kunnen bijleren op basis van ingevoerde data en patronen.",
+
+    "Deep Learning" : "Deep Learning is op zijn beurt de verzamelnaam voor een groep technieken voor zelfsturende Machine Learning, waarbij algoritmes zichzelf slimmer maken."
+}
+while True:
+    qs = input()
+    if (qs == "quit"):
+        break
+    else:
+        print(qna[qs])
+
+
+
